@@ -11,7 +11,7 @@ In this project I wanted to benchmark the performance of different partioning sc
 3. **Strict NNZ-Based Partitioning**  
    In this approach, each thread is assigned exactly the same number of non-zero elements, regardless of how those elements are distributed across rows.
 
-An overview of these three techniques is displayed in the figure below.
+An overview of these three techniques is displayed in the figure below (Gao et Al 2024)[1].
 ![partioning](https://github.com/user-attachments/assets/87126d18-3120-48fc-99c3-baad3ef2d42a)
 
 In particular I wanted to investigate how each algorithm performs based on matrices classified using multiple properties:
